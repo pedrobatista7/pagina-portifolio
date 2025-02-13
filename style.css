@@ -60,6 +60,11 @@ header{
     align-items: center;
     justify-content: space-around;
     padding: 40px 4%;
+    position: fixed; /* Fixa o header no topo */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 .nav-main{
@@ -123,9 +128,10 @@ header{
     color: var(--color1);
     padding: 40px 4%;
     height: 100vh;
+
 }
 .inicio-site, .interface, .flex{
-    height: 92vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,6 +154,9 @@ header{
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+.txt-inicio-site .p-2{
+    font-weight: 700;
 }
 
 .img-inicio-site{
@@ -172,6 +181,31 @@ header{
     100% {
         top: 20px;
     }
+}
+
+/* ESPECIALIDADES */
+
+.especialidades{
+    height: 100vh;
+
+}
+.txt-itens{
+    height: 100vh;
+    width: 90%;
+    font-size: 1.5rem;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.esp-itens{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
