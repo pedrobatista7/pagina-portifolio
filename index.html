@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Portifolio Pedro Batista</title>
 </head>
 <body>
@@ -13,23 +14,44 @@
                 <h1>Pedro Batista</h1>
             </a>
         </div>
-        <nav>
+        <nav class="nav-main">
             <ul class="nav-container">
-                <li><a href="#" class="nav-itens">Sobre mim</a></li>
+                <li><a href="#inicio" class="nav-itens">Inicio</a></li>
+                <li><a href="#" class="nav-itens">Especialidades</a></li>
+                <li><a href="#" class="nav-itens">Sobre</a></li>
                 <li><a href="#" class="nav-itens">Projetos</a></li>
-                <li><a href="#" class="nav-itens">Planejamento</a></li>
             </ul>
         </nav>
+        <div class="btn-contato-header">
+            <a href="#">
+                <button class="btn-contato-header">contato</button>
+            </a>
+        </div>
     </header>
     <main>
-        <section>
-            <h1>Sobre mim</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, magnam aliquam, architecto pariatur obcaecati quam repellat illo quas dolor odit molestias possimus soluta harum sint suscipit nulla tempore dicta accusamus?</p>
+        <!-- inicio site -->
+        <section class="inicio-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-inicio-site">
+                        <h1>Transformando ideias em interfaces incríveis 🚀</h1>
+                        <p>Se você busca um design moderno, responsivo e com desempenho otimizado, não está no lugar certo! Meu foco é criar experiências visuais impactantes que conectam marcas e usuários de forma intuitiva.</p>
+                        <p>💡 Precisa de um site que se destaque? Vamos transformar sua visão em realidade!
+                        </p>
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button class="btn-contato">entrar em contato</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-inicio-site">
+                        <img src="images/pedro photo.jpg" alt="foto do pedro">
+                    </div>
+                </div>
+            </div>
         </section>
-        <section>
-            <h1>formaçao</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officia praesentium deserunt libero vitae officiis quisquam minus eos ratione assumenda perspiciatis voluptatibus qui et est adipisci cupiditate placeat, incidunt illo!</p>
-        </section>
+        <!-- especialidades -->
+         <section class="especialidades" id="especialidades"></section>
     </main>
 </body>
 </html>
