@@ -208,6 +208,16 @@ header{
     align-items: center;
 }
 
+.esp-menu{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    
+}
+
 
 
 
