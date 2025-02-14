@@ -252,5 +252,8 @@ strong{
     font-size: 2rem;
 }
 
+/* projetos */
 
-
+.projetos{
+ height: 100vh;
+}
