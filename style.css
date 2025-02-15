@@ -14,6 +14,7 @@
     --color4: #E2E8F0;
     --color5: #94A3B8;
     --color6: #FACC15;
+    --color7: #475569;
   }
 
   body{
@@ -189,7 +190,7 @@ header{
 
 .especialidades{
     height: 100vh;
-    background-color: #475569;
+    background-color: var(--color7);
     color: #E2E8F0;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.47);
     
@@ -263,7 +264,7 @@ strong{
 
 .projetos{
  height: 100vh;
- background-color: #475569;
+ background-color: var(--color7);
  color: #E2E8F0;
  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.47);
 
@@ -288,6 +289,89 @@ strong{
 
 .form{
     width: 800px;
-    height: 750px;
-    background-color: #475569;
+    height: 700px;
+    background-color: var(--color7);
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.47);
+}
+
+.form h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 400px;
+    height: 80px;
+    background-color: var(--color5);
+    border-radius: 50px;
+    color: var(--color2);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.47);
+}
+
+form{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+input::placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#mensagem{
+    height: 80px;
+    resize: vertical;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#mensagem, #email, #name{
+    text-align: center;
+    color: var(--color1);
+    font-size: 20px;
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.btn-enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+    color: var(--color1);
+    background-color: var(--color5);
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.385);
+    transition: 0.3s;
+    border: none;
+    margin: 20px;
+}
+
+.btn-enviar:hover{
+    background-color: var(--color6);
+    color: var(--color1);
+}
+
+.btn-enviar a {
+    text-decoration: none;
 }
