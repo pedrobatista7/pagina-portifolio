@@ -232,12 +232,18 @@ strong{
 
 /* sobre */
 
+.text-mark{
+    background-color: var(--color6);
+    width: 1050px;
+}
+
 .sobre-mim{
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 
 }
 
@@ -255,8 +261,7 @@ strong{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 300px;
+    /* width: 100%; */
     font-size: 2rem;
 }
 
